@@ -24,4 +24,5 @@ O Café Expresso é um sistema de autoatendimento para cafeteria, onde o cliente
 - Pedido
 
 ## Integrantes
-- Seu nome aqui
+- Jeovânio Reis
+- Jeiza Chagas
