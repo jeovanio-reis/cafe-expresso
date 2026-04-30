@@ -6,3 +6,5 @@ public class Main {
 Produto p = new Produto("Café", 5.0);
 p.exibirDados();
 System.out.println("Teste Produto OK");
+ProdutoEletronico pe = new ProdutoEletronico("Notebook", 3000, 12);
+pe.exibirDados();
