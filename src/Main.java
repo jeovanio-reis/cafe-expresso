@@ -3,3 +3,6 @@ public class Main {
         System.out.println("Projeto Café Expresso iniciado");
     }
 }
+Produto p = new Produto("Café", 5.0);
+p.exibirDados();
+System.out.println("Teste Produto OK");
