@@ -1,7 +1,7 @@
 #  Café Expresso
 
 ##  Descrição
-O Café Expresso é um sistema de autoatendimento para cafeteria, onde o cliente pode montar seu pedido em um totem digital, realizar o pagamento e acompanhar o status.
+O Café Expresso é um sistema de autoatendimento para uma cafeteria de pequeno porte.
 
 ##  Objetivo
 - Reduzir filas
@@ -25,4 +25,4 @@ O Café Expresso é um sistema de autoatendimento para cafeteria, onde o cliente
 
 ## Integrantes
 - Jeovânio Reis
-- Jeiza Chagas
+- Jeiza Marcia Alves Chagas
