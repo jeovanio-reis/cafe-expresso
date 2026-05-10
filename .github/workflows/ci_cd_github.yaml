@@ -28,11 +28,11 @@ jobs:
     steps:
       # 1. Passo para clonar o seu código do repositório para dentro da máquina virtual
       - name: Checkout do código fonte
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       # 2. Passo para instalar o JDK (Java Development Kit) na máquina
       - name: Configurar o ambiente Java
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@v4
         with:
           # Usa a versão definida na variável global acima
           java-version: ${{ env.JAVA_VERSION }}
