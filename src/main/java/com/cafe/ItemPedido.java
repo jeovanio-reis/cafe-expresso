@@ -1,0 +1,31 @@
+package com.cafe;
+
+public class ItemPedido {
+
+    private Produto produto;
+    private int quantidade;
+
+    public ItemPedido(Produto produto, int quantidade) {
+        if (produto == null) {
+            throw new IllegalArgumentException("Produto nao pode ser nulo.");
+        }
+        if (quantidade <= 0) {
+            throw new IllegalArgumentException("Quantidade deve ser maior que zero.");
+        }
+        this.produto = produto;
+        this.quantidade = quantidade;
+    }
+
+    public double calcularSubtotal() {
+        double subtotal = produto.getPreco() * quantidade;
+        return subtotal;
+    }
+
+    public Produto getProduto() {
+        return produto;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+}
